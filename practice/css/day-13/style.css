@@ -1,0 +1,21 @@
+    h1 {
+        color: yellow;
+    }
+    .heading-red{
+        color: red;
+    }
+    .heading-green{
+        color: green;
+    }
+    .heading-blue{
+        color: blue;
+    }
+    .background-green{
+        background-color: green;
+    }
+     .background-black{
+        background-color: black;
+    }
+    #heading1{
+        font-size: 80px;
+    }

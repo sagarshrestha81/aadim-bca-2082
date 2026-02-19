@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <style>
+   
+    ul {
+      display: grid;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+            grid-template-columns: 1fr 1fr;
+    width: 500px;
+
+      li {
+        padding: 10px;
+        background: #917a7a;
+        &:nth-child(1) {
+          background: #ff0000;
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 3;
+        } 
+        &:nth-child(2) {
+          background: #00ff00;
+        }
+        &:nth-child(3) {
+          background: #0000ff;
+        }
+      }
+     
+
+
+    }
+  </style>
+
+
+  <ul>
+    <li><img src="./3-toed-sloth-TR.jpg" alt=""></li>
+    <li><img src="./Charissa Cantrell (18).jpeg" alt=""></li>
+    <li><img src="./toppng.com-spider-man-png-spiderman-1001x1001.png" alt=""></li>
+  </ul>
+  <!-- <h4>hello</h4>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe, veritatis?</p> -->
+
+
+
+</body>
+
+</html>

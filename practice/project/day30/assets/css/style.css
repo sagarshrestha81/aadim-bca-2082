@@ -1,0 +1,17 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+header {
+    .announcement-bar {
+        display: flex;
+        justify-content: space-between;
+        padding: 8px 50px;
+        background: #6d3098;
+        color: #ffffff;
+        a{
+            color: #ffffff;
+            text-decoration: none;
+        }
+    }
+}

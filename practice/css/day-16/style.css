@@ -1,0 +1,10 @@
+body{
+    margin: 0;
+}
+span{
+    color: #ffff00;
+    background: #000000;
+    font-size: 24px;
+    font-style: italic;
+    display: block;
+}

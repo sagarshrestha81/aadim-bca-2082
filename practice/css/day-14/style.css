@@ -1,0 +1,13 @@
+span{
+    width: 200px;
+    height: 200px;
+    background: red;
+    display: block;
+    margin: 20px;
+}
+.rectangle-box{
+    width: 400px; 
+    /* background: rgb(255,0,0); */
+    background: #00ff00;
+
+}
